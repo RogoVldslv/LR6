@@ -35,4 +35,13 @@
 ![8.png](screenshots/8.png)\
 Рисунок 8 – Git log после отката коммита\
 ---
+С помощью команды `git log --date=short --pretty=format:"%h | %ad | %an | %s"` была получена история коммитов в формате таблицы.\
+c2dde58 | 2026-11-19 | parlament700 | second part of report\
+ea197f0 | 2026-11-19 | parlament700 | first part of report\
+2b5877c | 2026-11-19 | parlament700 | conflict is resolved\
+e689211 | 2026-11-19 | parlament700 | добавлен file2.txt\
+56444d1 | 2026-11-19 | RogoVldslv | Create file2.txt\
+921f53b | 2020-11-21 | Kurtyanik | Обновление информации\
+c08a654 | 2020-11-21 | Kurtyanik | Файл создан пустым\
+3c6e913 | 2020-11-21 | Kurtyanik | Initial commit\
 
